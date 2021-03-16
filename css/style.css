@@ -10,20 +10,27 @@ body {
     background-color: #e2e2e2;
 }
 
-
-
 #container-2 {
     width: 900px;
-    /* height: 500px; */
     background-color: white;
     margin: auto;
     margin-top: 3px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.line-model {
+    /* line-height: 40px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Header */
 #logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 20px;
 }
 
@@ -35,6 +42,8 @@ body {
     line-height: 50px;
     vertical-align: top;
     font-size: 50px;
+    margin-top: 20px;    
+    margin-bottom: 20px;
 }
 
 header {
@@ -84,7 +93,7 @@ header {
     height: 15px;
     border-radius: 50%;
     font-size: 10px;
-    padding-left: 3px;
+        text-align: center;
 }
 .done {
     
@@ -110,26 +119,26 @@ header {
     text-align: center;
 }
 
-.editorial-category {
+#editorial-category {
     background-color: #00c0ff;
 }
 
-.goals-category {
+#goals-category {
     background-color: purple;
 }
 
-.recruiting-category {
+#recruiting-category {
     background-color: seagreen;
 }
 
-.mobile-category {
+#mobile-category {
     background-color: orange;
 }
 
-.website-category {
+#website-category {
     background-color: pink;
 }
 
-.sales-category {
+#sales-category {
     background-color: limegreen;
 }
