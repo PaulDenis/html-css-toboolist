@@ -1,0 +1,38 @@
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DCDCDC;
+}
+
+/* Header */
+#logo {
+    margin-left: 20px;
+}
+
+.logo-title {
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: top;
+    font-size: 50px;
+}
+
+header {
+    background-color: white;
+}
+/* Main body */
+
+.container {
+    width: 900px;
+    /* height: 500px; */
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 1%;
+
+}
